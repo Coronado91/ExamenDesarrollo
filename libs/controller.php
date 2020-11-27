@@ -3,8 +3,7 @@
     require_once 'anonymous.php';
     class Controller extends Anonymous{
         function __construct(){
-        
-            
+                    
             $this->view = new View();
             $this->funcion = new funcion();
 
@@ -20,4 +19,4 @@
             }
         }
     }
-?>
+?> 
