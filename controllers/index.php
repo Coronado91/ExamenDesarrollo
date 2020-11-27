@@ -4,8 +4,14 @@
             parent::__construct();
         }
 
-        function render(){
+        public function render(){
             $this->view->render('index/index');
+        }
+
+         public function Listar()
+        {
+           $data = $this->model->listarproducto();
+           echo json_encode($data);
         }
     }
 ?>
