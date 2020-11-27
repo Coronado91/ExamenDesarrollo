@@ -1,7 +1,7 @@
 <?php
     //Rutas
     
-    define('URL', 'http://localhost/ExamenDesarrolllo/ExamenDesarrollo');
+    define('URL', '/ExamenDesarrolllo/ExamenDesarrollo/');
 	define('DFT','Default/');
     define('RQ', 'recursos/');
     const LBS = 'libs/';
@@ -10,9 +10,9 @@
 
 
     //BD config
-    define('HOST', '');
-	define('DB', '');
-	define('USER', '');
+    define('HOST', 'localhost');
+	define('DB', 'puntoventa');
+	define('USER', 'root');
 	define('PASSWORD', '');
 	define('CHARSET','utf8mb4');
 
