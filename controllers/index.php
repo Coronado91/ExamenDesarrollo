@@ -11,7 +11,11 @@
          public function Listar()
         {
            $data = $this->model->listarproducto();
-           echo json_encode($data);
+           if(is_array($data)){
+              echo json_encode($data);
+           }else{
+               echo $data;
+           }
         }
     }
 ?>

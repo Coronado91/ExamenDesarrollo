@@ -13,8 +13,12 @@
 <script type="text/javascript"
     src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.22/af-2.3.5/b-1.6.5/b-colvis-1.6.5/b-flash-1.6.5/b-html5-1.6.5/fc-3.3.1/r-2.2.6/rr-1.2.7/sc-2.0.3/datatables.min.js">
 </script>
+<script src="recursos/js/config.js"></script>
 
-
+<script src="recursos/js/funciones.js"></script>
+<script src="recursos/js/index.js"></script>
+<script src="recursos/js/principal.js"></script>
+<script src="recursos/js/app.js"></script>
 
 </body>
 
